@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="BMP">
+    <file>data.BMP</file>
+  </qresource>
+</RCC>

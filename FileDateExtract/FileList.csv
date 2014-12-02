@@ -1,0 +1,80 @@
+D2W PCA FVT-FTE.xml,											Dim2Warm,			1
+archiPoint_Assembly_(China).xml,								Archipoint,			2
+archiPoint_Assembly_(China)_PCA_Functional Test.xml,			Archipoint,			2
+ColorBlast TRX LED Board Serialize and Light Measurement.xml,	Blast TRX,			3
+LED_Inspection-BlazeTR4-LED_PCA.xml,							Blaze TR4,			4
+Blaze TR4 LED Board Serialize and FVT.xml,						Blaze TR4,			4
+Blaze TR4 Control PCA Serialize and FVT.xml,					Blaze TR4,			4
+LED_Inspection-BlazeTR4-LED_PCA Post Burn In.xml,				Blaze TR4,			4
+FTE-Blaze TR4 Fixture PRE Burn In Power Test.xml,				Blaze TR4,			4
+FTE-Blaze TR4 Fixture POST Burn In Power Test.xml,				Blaze TR4,			4
+LED_Inspection-BlazeTR4-Fixture PRE Burn In 4FT.xml,			Blaze TR4,			4
+LED_Inspection-BlazeTR4-Fixture PRE Burn In 6FT.xml,			Blaze TR4,			4
+LED_Inspection-BlazeTR4-Fixture POST Burn In 4FT.xml,			Blaze TR4,			4
+LED_Inspection-BlazeTR4-Fixture POST Burn In 6FT.xml,			Blaze TR4,			4
+Burst_Assembly_(China).xml,										Burst,				5
+Burst_Assembly_(China) - Check.xml,								Burst,				5
+Burst_PCA_(China) - Check.xml,									Burst,				5
+eW_Cove_Precision_Serialization_and_Config.xml,					Color_iW Cove,		6
+iW and iColor Cove MX Livescan Special Serialization V2.xml,	Color_iW Cove,		6
+LED_Inspection-eW Cove EC QLX-LED_PCA.xml,						eW EC_QLX G3,		14
+ELTE - Cove EC-QLX_6in-12in.xml,								eW EC_QLX G3,		14
+LED_Inspection-eW Cove EC QLX-Pre and Post Burn In.xml,			eW EC_QLX G3,		14
+LED_Inspection-Cove48-LED_PCA.xml,								eW EC_QLX G3 48in,	14
+ELTE - Cove EC-QLX_48in - Power PCA.xml,						eW EC_QLX G3 48in,	14
+ELTE - Cove EC-QLX_48in - ASY.xml,								eW EC_QLX G3 48in,	14
+LED_Inspection-eW Cove EC QLX 48-Pre Burn In.xml,				eW EC_QLX G3 48in,	14
+LED_Inspection-eW Cove EC QLX 48-Post Burn In.xml,				eW EC_QLX G3 48in,	14
+LED_Inspection-Cove48-LED_PCA.xml,								eW EC_QLX G3 48in,	14
+ColorGraze 4CH Power Supply_RGBA-RGBW.xml,						ColorGraze4CH,		0
+LED_Inspection_ColorGraze 4Ch_PCA_RGBX.xml,						ColorGraze4CH,		0
+MSLM - ColorGraze 4Ch - RGBX.xml,								ColorGraze4CH,		0
+LED_Inspection_ColorGraze 4Ch_Post Burn In.xml,					ColorGraze4CH,		0
+uGraze power supply_Color-iW.xml,								uGraze,				0
+uGraze power supply_eW_eColor.xml,								uGraze,				0
+LED_Inspection_uGraze_PCA_eW-eColor - Gray Filter.xml,			uGraze,				0
+LED_Inspection_uGraze_PCA_RGB-iW - Gray Filter.xml,				uGraze,				0
+MSLM - Graze G2 - Color.xml,									uGraze,				0
+MSLM - Graze G2 - eW - 2700K.xml,								uGraze,				0
+MSLM - Graze G2 - eW - 3000K.xml,								uGraze,				0
+MSLM - Graze G2 - eW - 3500K.xml,								uGraze,				0
+MSLM - Graze G2 - eW - 4000K.xml,								uGraze,				0
+MSLM - Graze G2 - eW - 5500K.xml,								uGraze,				0
+MSLM - Graze G2 - eW - 6500K.xml,								uGraze,				0
+MSLM - Graze G2 - iW.xml,										uGraze,				0
+MSLM - Graze G2 -eColor.xml,									uGraze,				0
+LED_Inspection_ColorGraze MX_QLX_EC_LV2012.xml,					uGraze,				0
+LED_Inspection_eColor Graze_LV2012.xml,							uGraze,				0
+LED_Inspection_eW Graze_MX_QLX_EC_LV2012.xml,					uGraze,				0
+LED_Inspection_iW Graze MX_QLX_EC_LV2012.xml,					uGraze,				0
+iColor Cove QLX-EC.xml,											iColor Cove,		8
+FTE-MRG3-Power Supply PCA.xml,									MRG3,				9
+LED_Inspection-MRG3-LED_PCA.xml,								MRG3,				9
+FTE-MRG3-Assembly Serialize and Light Measure.xml,				MRG3,				9
+LED_Inspection-MRG3-Post Burn In.xml,							MRG3,				9
+Data Enabler Intellipower POST-Burn-In Test.xml,				PLC,				10
+Data Enabler Intellipower PRE-Burn-In Test.xml,					PLC,				10
+Data Receiver Intellipower POST-Burn-In Test.xml,				PLC,				10
+Data Receiver Intellipower PRE-Burn-In Test.xml,				PLC,				10
+Intellipower Power Supply Test Descriptor.xml,					PLC,				10
+Reach_PowerTray_(China)_2010.xml,								Reach China,		11
+LED_Inspection_Reach_PCA.xml,									Reach China,		11
+Reach_Calibration_(China)_DeviceList.xml,						Reach China,		11
+Reach_gen2_Light-Power_(China).xml,								Reach China,		11
+LED_Inspection_Reach_Assembly(China).xml,						Reach China,		11
+Compact-Reach_PowerTray_(China).xml,							Reach Compact China,11
+Compact-Reach_Calibration_(China).xml,							Reach Compact China,11
+Compact-Reach_Light-Power_(China).xml,							Reach Compact China,11
+LED_Inspection_CompactReach_Assembly.xml,						Reach Compact China,11
+LED_Inspection-D_G-LED_PCA.xml,									Skyribbon D_G,		14
+MSLM - SkyRibbon Direct-Graze.xml,								Skyribbon D_G,		14
+LED_Inspection-D_G-LED_1FT_ASY PostBurnIn.xml,					Skyribbon D_G,		14
+LED_Inspection-D_G-LED_4FT_ASY PostBurnIn.xml,					Skyribbon D_G,		14
+Skyribbon iHue Control Board.xml,								Skyribbon Wash,		14
+LED_Inspection_SkyRibbon_PCA.xml,								Skyribbon Wash,		14
+MSLM - SkyRibbon - Color.xml,									Skyribbon Wash,		14
+MSLM - SkyRibbon - eW.xml,										Skyribbon Wash,		14
+LED_Inspection_SkyRibbon_Module_Wash_iHue.xml,					Skyribbon Wash,		14
+LED_Inspection_SkyRibbon_Module_Wash_eW-eColor.xml,				Skyribbon Wash,		14
+FTE-Vaya-Voltage and Current Measurement.xml,					Vaya Cove LP,		13
+FTE-Vaya Linear MP FG Power Measurement.xml,					Vaya Linear MP,		13

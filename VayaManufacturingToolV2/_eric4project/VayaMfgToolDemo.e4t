@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-4.2.dtd">
+<!-- eric4 tasks file for project VayaMfgToolDemo -->
+<!-- Saved: 2014-10-09, 17:10:50 -->
+<Tasks version="4.2">
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2014-02-08, 14:42:20</Created>
+    <Resource>
+      <Filename>VayaMfgMainWin.py</Filename>
+      <Linenumber>28</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2014-02-08, 14:42:20</Created>
+    <Resource>
+      <Filename>VayaMfgMainWin.py</Filename>
+      <Linenumber>37</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2014-02-08, 14:42:20</Created>
+    <Resource>
+      <Filename>VayaMfgMainWin.py</Filename>
+      <Linenumber>46</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2014-02-08, 14:42:20</Created>
+    <Resource>
+      <Filename>VayaMfgMainWin.py</Filename>
+      <Linenumber>55</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

@@ -1,0 +1,617 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ConfigList>
+  <SVN_Url NoCheckSum="true">$$</SVN_Url>
+  <SVN_Rev NoCheckSum="true">$$</SVN_Rev>
+  <SVN_Date NoCheckSum="true">$$</SVN_Date>
+  <SVN_Author NoCheckSum="true">$$</SVN_Author>
+  
+  <FormatList TitleColor="GRAY" CellColor="NULL" TitleWidth="8000" CellWidth="8000" PassColor="GREEN" FailColor="RED"/>
+
+  <ProductList ProductName="MRG3">
+	<TestStation StationName="Driver PCA Measurement" >
+		<ModelList Name="ALL">
+			<ReportData Title="Red_A_7.5" 	Cell="E19"/>
+			<ReportData Title="Red_A_3.3" 	Cell="G19"/>
+			<ReportData Title="Green_A_3.3" Cell="G20"/>
+			<ReportData Title="Blue_A_3.3" 	Cell="G21"/>
+			<ReportData Title="Red_B_7.5" 	Cell="E22"/>
+			<ReportData Title="Red_B_3.3" 	Cell="G22"/>
+			<ReportData Title="Green_B_3.3" Cell="G23"/>
+			<ReportData Title="Blue_B_3.3" 	Cell="G24"/>
+		</ModelList>
+	</TestStation >
+	<TestStation StationName="Voltage, Current and Light Measurment">
+		<ModelList Name="ALL">
+			<ReportData Title="Red_V" 		Cell="G19"/>
+			<ReportData Title="Red_I" 		Cell="I19"/>
+			<ReportData Title="Red_X" 		Cell="K19"/>
+			<ReportData Title="Red_Y" 		Cell="M19"/>
+			<ReportData Title="Red_Z" 		Cell="O19"/>
+			<ReportData Title="Red_DUV" 	Cell="Q19"/>
+			<ReportData Title="Green_V" 	Cell="G20"/>
+			<ReportData Title="Green_I" 	Cell="I20"/>
+			<ReportData Title="Green_X" 	Cell="K20"/>
+			<ReportData Title="Green_Y" 	Cell="M20"/>
+			<ReportData Title="Green_Z" 	Cell="O20"/>
+			<ReportData Title="Green_DUV" 	Cell="Q20"/>
+			<ReportData Title="Blue_V" 		Cell="G21"/>
+			<ReportData Title="Blue_I" 		Cell="I21"/>
+			<ReportData Title="Blue_X" 		Cell="K21"/>
+			<ReportData Title="Blue_Y" 		Cell="M21"/>
+			<ReportData Title="Blue_Z" 		Cell="O21"/>
+			<ReportData Title="Blue_DUV" 	Cell="Q21"/>
+			<ReportData Title="All_V" 		Cell="G22"/>
+			<ReportData Title="All_I" 		Cell="I22"/>
+			<ReportData Title="All_X" 		Cell="K22"/>
+			<ReportData Title="All_Y" 		Cell="M22"/>
+			<ReportData Title="All_Z" 		Cell="O22"/>
+			<ReportData Title="All_DUV" 	Cell="Q22"/>
+		</ModelList>
+	</TestStation>
+  </ProductList>
+
+  <ProductList ProductName="uGraze Color/iW/eColor/eW">
+	<TestStation StationName="Power PCA Measurement" >
+		<ModelList Name="ALL">
+			<ReportData Title="I_100V" 	Cell="K19"/>
+			<ReportData Title="P_100V" 	Cell="M19"/>
+			<ReportData Title="PF_100V" Cell="O19"/>
+			<ReportData Title="I_120V" 	Cell="K20"/>
+			<ReportData Title="P_120V" 	Cell="M20"/>
+			<ReportData Title="PF_120V" Cell="O20"/>
+			<ReportData Title="I_230V" 	Cell="K21"/>
+			<ReportData Title="P_230V" 	Cell="M21"/>
+			<ReportData Title="PF_230V" Cell="O21"/>
+			<ReportData Title="I_277V" 	Cell="K22"/>
+			<ReportData Title="P_277V" 	Cell="M22"/>
+			<ReportData Title="PF_277V" Cell="O22"/>
+		</ModelList>
+	</TestStation >
+	<TestStation StationName="Multi-Segment Light Measurment">
+		<ModelList Name="Color/iW 1FT">
+			<ReportData Title="I_120V" 		Cell="F30"/>
+			<ReportData Title="P_120V" 		Cell="H30"/>
+			<ReportData Title="PF" 			Cell="J30"/>
+			<ReportData Title="H0_CH0_U" 	Cell="G35"/>
+			<ReportData Title="H0_CH0_V" 	Cell="H35"/>
+			<ReportData Title="H0_CH0_DUV" 	Cell="I35"/>
+			<ReportData Title="H0_CH1_U" 	Cell="G36"/>
+			<ReportData Title="H0_CH1_V" 	Cell="H36"/>
+			<ReportData Title="H0_CH1_DUV" 	Cell="I36"/>
+			<ReportData Title="H0_CH2_U" 	Cell="G37"/>
+			<ReportData Title="H0_CH2_V" 	Cell="H37"/>
+			<ReportData Title="H0_CH2_DUV" 	Cell="I37"/>
+		</ModelList>
+		<ModelList Name="Color/iW 2FT">
+			<ReportData Title="I_120V" 		Cell="F30"/>
+			<ReportData Title="P_120V" 		Cell="H30"/>
+			<ReportData Title="PF" 			Cell="J30"/>
+			<ReportData Title="H0_CH0_U" 	Cell="G35"/>
+			<ReportData Title="H0_CH0_V" 	Cell="H35"/>
+			<ReportData Title="H0_CH0_DUV" 	Cell="I35"/>
+			<ReportData Title="H0_CH1_U" 	Cell="G36"/>
+			<ReportData Title="H0_CH1_V" 	Cell="H36"/>
+			<ReportData Title="H0_CH1_DUV" 	Cell="I36"/>
+			<ReportData Title="H0_CH2_U" 	Cell="G37"/>
+			<ReportData Title="H0_CH2_V" 	Cell="H37"/>
+			<ReportData Title="H0_CH2_DUV" 	Cell="I37"/>
+			<ReportData Title="H1_CH0_U" 	Cell="G38"/>
+			<ReportData Title="H1_CH0_V" 	Cell="H38"/>
+			<ReportData Title="H1_CH0_DUV" 	Cell="I38"/>
+			<ReportData Title="H1_CH1_U" 	Cell="G39"/>
+			<ReportData Title="H1_CH1_V" 	Cell="H39"/>
+			<ReportData Title="H1_CH1_DUV" 	Cell="I39"/>
+			<ReportData Title="H1_CH2_U" 	Cell="G40"/>
+			<ReportData Title="H1_CH2_V" 	Cell="H40"/>
+			<ReportData Title="H1_CH2_DUV" 	Cell="I40"/>
+		</ModelList>
+		<ModelList Name="Color/iW 3FT">
+			<ReportData Title="I_120V" 		Cell="F30"/>
+			<ReportData Title="P_120V" 		Cell="H30"/>
+			<ReportData Title="PF" 			Cell="J30"/>
+			<ReportData Title="H0_CH0_U" 	Cell="G35"/>
+			<ReportData Title="H0_CH0_V" 	Cell="H35"/>
+			<ReportData Title="H0_CH0_DUV" 	Cell="I35"/>
+			<ReportData Title="H0_CH1_U" 	Cell="G36"/>
+			<ReportData Title="H0_CH1_V" 	Cell="H36"/>
+			<ReportData Title="H0_CH1_DUV" 	Cell="I36"/>
+			<ReportData Title="H0_CH2_U" 	Cell="G37"/>
+			<ReportData Title="H0_CH2_V" 	Cell="H37"/>
+			<ReportData Title="H0_CH2_DUV" 	Cell="I37"/>
+			<ReportData Title="H1_CH0_U" 	Cell="G38"/>
+			<ReportData Title="H1_CH0_V" 	Cell="H38"/>
+			<ReportData Title="H1_CH0_DUV" 	Cell="I38"/>
+			<ReportData Title="H1_CH1_U" 	Cell="G39"/>
+			<ReportData Title="H1_CH1_V" 	Cell="H39"/>
+			<ReportData Title="H1_CH1_DUV" 	Cell="I39"/>
+			<ReportData Title="H1_CH2_U" 	Cell="G40"/>
+			<ReportData Title="H1_CH2_V" 	Cell="H40"/>
+			<ReportData Title="H1_CH2_DUV" 	Cell="I40"/>
+			<ReportData Title="H2_CH0_U" 	Cell="G41"/>
+			<ReportData Title="H2_CH0_V" 	Cell="H41"/>
+			<ReportData Title="H2_CH0_DUV" 	Cell="I41"/>
+			<ReportData Title="H2_CH1_U" 	Cell="G42"/>
+			<ReportData Title="H2_CH1_V" 	Cell="H42"/>
+			<ReportData Title="H2_CH1_DUV" 	Cell="I42"/>
+			<ReportData Title="H2_CH2_U" 	Cell="G43"/>
+			<ReportData Title="H2_CH2_V" 	Cell="H43"/>
+			<ReportData Title="H2_CH2_DUV" 	Cell="I43"/>
+		</ModelList>
+		<ModelList Name="Color/iW 4FT">
+			<ReportData Title="I_120V" 		Cell="F30"/>
+			<ReportData Title="P_120V" 		Cell="H30"/>
+			<ReportData Title="PF" 			Cell="J30"/>
+			<ReportData Title="H0_CH0_U" 	Cell="G35"/>
+			<ReportData Title="H0_CH0_V" 	Cell="H35"/>
+			<ReportData Title="H0_CH0_DUV" 	Cell="I35"/>
+			<ReportData Title="H0_CH1_U" 	Cell="G36"/>
+			<ReportData Title="H0_CH1_V" 	Cell="H36"/>
+			<ReportData Title="H0_CH1_DUV" 	Cell="I36"/>
+			<ReportData Title="H0_CH2_U" 	Cell="G37"/>
+			<ReportData Title="H0_CH2_V" 	Cell="H37"/>
+			<ReportData Title="H0_CH2_DUV" 	Cell="I37"/>
+			<ReportData Title="H1_CH0_U" 	Cell="G38"/>
+			<ReportData Title="H1_CH0_V" 	Cell="H38"/>
+			<ReportData Title="H1_CH0_DUV" 	Cell="I38"/>
+			<ReportData Title="H1_CH1_U" 	Cell="G39"/>
+			<ReportData Title="H1_CH1_V" 	Cell="H39"/>
+			<ReportData Title="H1_CH1_DUV" 	Cell="I39"/>
+			<ReportData Title="H1_CH2_U" 	Cell="G40"/>
+			<ReportData Title="H1_CH2_V" 	Cell="H40"/>
+			<ReportData Title="H1_CH2_DUV" 	Cell="I40"/>
+			<ReportData Title="H2_CH0_U" 	Cell="G41"/>
+			<ReportData Title="H2_CH0_V" 	Cell="H41"/>
+			<ReportData Title="H2_CH0_DUV" 	Cell="I41"/>
+			<ReportData Title="H2_CH1_U" 	Cell="G42"/>
+			<ReportData Title="H2_CH1_V" 	Cell="H42"/>
+			<ReportData Title="H2_CH1_DUV" 	Cell="I42"/>
+			<ReportData Title="H2_CH2_U" 	Cell="G43"/>
+			<ReportData Title="H2_CH2_V" 	Cell="H43"/>
+			<ReportData Title="H2_CH2_DUV" 	Cell="I43"/>
+			<ReportData Title="H3_CH0_U" 	Cell="G44"/>
+			<ReportData Title="H3_CH0_V" 	Cell="H44"/>
+			<ReportData Title="H3_CH0_DUV" 	Cell="I44"/>
+			<ReportData Title="H3_CH1_U" 	Cell="G45"/>
+			<ReportData Title="H3_CH1_V" 	Cell="H45"/>
+			<ReportData Title="H3_CH1_DUV" 	Cell="I45"/>
+			<ReportData Title="H3_CH2_U" 	Cell="G46"/>
+			<ReportData Title="H3_CH2_V" 	Cell="H46"/>
+			<ReportData Title="H3_CH2_DUV" 	Cell="I46"/>
+		</ModelList>
+		<ModelList Name="eColor/eW 1FT">
+			<ReportData Title="I_120V" 		Cell="F30"/>
+			<ReportData Title="P_120V" 		Cell="H30"/>
+			<ReportData Title="PF" 			Cell="J30"/>
+			<ReportData Title="H0_CH0_U" 	Cell="G35"/>
+			<ReportData Title="H0_CH0_V" 	Cell="H35"/>
+			<ReportData Title="H0_CH0_DUV" 	Cell="I35"/>
+		</ModelList>
+		<ModelList Name="eColor/eW 2FT">
+			<ReportData Title="I_120V" 		Cell="F30"/>
+			<ReportData Title="P_120V" 		Cell="H30"/>
+			<ReportData Title="PF" 			Cell="J30"/>
+			<ReportData Title="H0_CH0_U" 	Cell="G35"/>
+			<ReportData Title="H0_CH0_V" 	Cell="H35"/>
+			<ReportData Title="H0_CH0_DUV" 	Cell="I35"/>
+			<ReportData Title="H1_CH0_U" 	Cell="G36"/>
+			<ReportData Title="H1_CH0_V" 	Cell="H36"/>
+			<ReportData Title="H1_CH0_DUV" 	Cell="I36"/>
+		</ModelList>
+		<ModelList Name="eColor/eW 3FT">
+			<ReportData Title="I_120V" 		Cell="F30"/>
+			<ReportData Title="P_120V" 		Cell="H30"/>
+			<ReportData Title="PF" 			Cell="J30"/>
+			<ReportData Title="H0_CH0_U" 	Cell="G35"/>
+			<ReportData Title="H0_CH0_V" 	Cell="H35"/>
+			<ReportData Title="H0_CH0_DUV" 	Cell="I35"/>
+			<ReportData Title="H1_CH0_U" 	Cell="G36"/>
+			<ReportData Title="H1_CH0_V" 	Cell="H36"/>
+			<ReportData Title="H1_CH0_DUV" 	Cell="I36"/>
+			<ReportData Title="H2_CH0_U" 	Cell="G37"/>
+			<ReportData Title="H2_CH0_V" 	Cell="H37"/>
+			<ReportData Title="H2_CH0_DUV" 	Cell="I37"/>
+		</ModelList>
+		<ModelList Name="eColor/eW 4FT">
+			<ReportData Title="I_120V" 		Cell="F30"/>
+			<ReportData Title="P_120V" 		Cell="H30"/>
+			<ReportData Title="PF" 			Cell="J30"/>
+			<ReportData Title="H0_CH0_U" 	Cell="G35"/>
+			<ReportData Title="H0_CH0_V" 	Cell="H35"/>
+			<ReportData Title="H0_CH0_DUV" 	Cell="I35"/>
+			<ReportData Title="H1_CH0_U" 	Cell="G36"/>
+			<ReportData Title="H1_CH0_V" 	Cell="H36"/>
+			<ReportData Title="H1_CH0_DUV" 	Cell="I36"/>
+			<ReportData Title="H2_CH0_U" 	Cell="G37"/>
+			<ReportData Title="H2_CH0_V" 	Cell="H37"/>
+			<ReportData Title="H2_CH0_DUV" 	Cell="I37"/>
+			<ReportData Title="H3_CH0_U" 	Cell="G38"/>
+			<ReportData Title="H3_CH0_V" 	Cell="H38"/>
+			<ReportData Title="H3_CH0_DUV" 	Cell="I38"/>
+		</ModelList>
+	</TestStation>
+  </ProductList>
+  
+  <ProductList ProductName="PLC Receiver">
+	<TestStation StationName="PDS_TEST_ENGINE" >
+		<ModelList Name="ALL">
+			<ReportData Title="I_277" 			Cell="F20"/>
+			<ReportData Title="P_277" 			Cell="H20"/>
+			<ReportData Title="PF_277" 			Cell="J20"/>
+			<ReportData Title="PDS_DISC_277" 	Cell="L20"/>
+			<ReportData Title="MAC_SET_277" 	Cell="N20"/>
+			<ReportData Title="I_230" 			Cell="F21"/>
+			<ReportData Title="P_230" 			Cell="H21"/>
+			<ReportData Title="PF_230" 			Cell="J21"/>
+			<ReportData Title="PDS_DISC_230" 	Cell="L21"/>
+			<ReportData Title="MAC_SET_230" 	Cell="N21"/>
+			<ReportData Title="I_120" 			Cell="F22"/>
+			<ReportData Title="P_120" 			Cell="H22"/>
+			<ReportData Title="PF_120" 			Cell="J22"/>
+			<ReportData Title="PDS_DISC_120" 	Cell="L22"/>
+			<ReportData Title="MAC_SET_120" 	Cell="N22"/>
+			<ReportData Title="I_100" 			Cell="F23"/>
+			<ReportData Title="P_100" 			Cell="H23"/>
+			<ReportData Title="PF_100" 			Cell="J23"/>
+			<ReportData Title="PDS_DISC_100" 	Cell="L23"/>
+			<ReportData Title="MAC_SET_100" 	Cell="N23"/>
+		</ModelList>
+	</TestStation >
+  </ProductList>
+
+  <ProductList ProductName="Skyribbon Graze And Direct">
+	<TestStation StationName="LIGHT_MEASUREMENT" >
+		<ModelList Name="iHUE_1FT">
+			<ReportData Title="Serialized" 			Cell="B30"/>
+			<ReportData Title="H0_CH0_U" 			Cell="G35"/>
+			<ReportData Title="H0_CH0_V" 			Cell="H35"/>
+			<ReportData Title="H0_CH0_DUV" 			Cell="I35"/>
+			<ReportData Title="H0_CH1_U" 			Cell="G36"/>
+			<ReportData Title="H0_CH1_V" 			Cell="H36"/>
+			<ReportData Title="H0_CH1_DUV" 			Cell="I36"/>
+			<ReportData Title="H0_CH2_U" 			Cell="G37"/>
+			<ReportData Title="H0_CH2_V" 			Cell="H37"/>
+			<ReportData Title="H0_CH2_DUV" 			Cell="I37"/>
+			<ReportData Title="H0_CH3_U" 			Cell="G38"/>
+			<ReportData Title="H0_CH3_V" 			Cell="H38"/>
+			<ReportData Title="H0_CH3_DUV" 			Cell="I38"/>
+			<ReportData Title="H0_CH4_U" 			Cell="G39"/>
+			<ReportData Title="H0_CH4_V" 			Cell="H39"/>
+			<ReportData Title="H0_CH4_DUV" 			Cell="I39"/>
+		</ModelList>
+		<ModelList Name="iHUE_4FT">
+			<ReportData Title="Serialized0" 		Cell="B30"/>
+			<ReportData Title="Serialized1" 		Cell="B31"/>
+			<ReportData Title="Serialized2" 		Cell="B32"/>
+			<ReportData Title="Serialized3" 		Cell="B33"/>
+			<ReportData Title="H0_CH0_U" 			Cell="G38"/>
+			<ReportData Title="H0_CH0_V" 			Cell="H38"/>
+			<ReportData Title="H0_CH0_DUV" 			Cell="I38"/>
+			<ReportData Title="H0_CH1_U" 			Cell="G39"/>
+			<ReportData Title="H0_CH1_V" 			Cell="H39"/>
+			<ReportData Title="H0_CH1_DUV" 			Cell="I39"/>
+			<ReportData Title="H0_CH2_U" 			Cell="G40"/>
+			<ReportData Title="H0_CH2_V" 			Cell="H40"/>
+			<ReportData Title="H0_CH2_DUV" 			Cell="I40"/>
+			<ReportData Title="H0_CH3_U" 			Cell="G41"/>
+			<ReportData Title="H0_CH3_V" 			Cell="H41"/>
+			<ReportData Title="H0_CH3_DUV" 			Cell="I41"/>
+			<ReportData Title="H0_CH4_U" 			Cell="G42"/>
+			<ReportData Title="H0_CH4_V" 			Cell="H42"/>
+			<ReportData Title="H0_CH4_DUV" 			Cell="I42"/>
+			<ReportData Title="H1_CH0_U" 			Cell="G43"/>
+			<ReportData Title="H1_CH0_V" 			Cell="H43"/>
+			<ReportData Title="H1_CH0_DUV" 			Cell="I43"/>
+			<ReportData Title="H1_CH1_U" 			Cell="G44"/>
+			<ReportData Title="H1_CH1_V" 			Cell="H44"/>
+			<ReportData Title="H1_CH1_DUV" 			Cell="I44"/>
+			<ReportData Title="H1_CH2_U" 			Cell="G45"/>
+			<ReportData Title="H1_CH2_V" 			Cell="H45"/>
+			<ReportData Title="H1_CH2_DUV" 			Cell="I45"/>
+			<ReportData Title="H1_CH3_U" 			Cell="G46"/>
+			<ReportData Title="H1_CH3_V" 			Cell="H46"/>
+			<ReportData Title="H1_CH3_DUV" 			Cell="I46"/>
+			<ReportData Title="H1_CH4_U" 			Cell="G47"/>
+			<ReportData Title="H1_CH4_V" 			Cell="H47"/>
+			<ReportData Title="H1_CH4_DUV" 			Cell="I47"/>
+			<ReportData Title="H2_CH0_U" 			Cell="G48"/>
+			<ReportData Title="H2_CH0_V" 			Cell="H48"/>
+			<ReportData Title="H2_CH0_DUV" 			Cell="I48"/>
+			<ReportData Title="H2_CH1_U" 			Cell="G49"/>
+			<ReportData Title="H2_CH1_V" 			Cell="H49"/>
+			<ReportData Title="H2_CH1_DUV" 			Cell="I49"/>
+			<ReportData Title="H2_CH2_U" 			Cell="G50"/>
+			<ReportData Title="H2_CH2_V" 			Cell="H50"/>
+			<ReportData Title="H2_CH2_DUV" 			Cell="I50"/>
+			<ReportData Title="H2_CH3_U" 			Cell="G51"/>
+			<ReportData Title="H2_CH3_V" 			Cell="H51"/>
+			<ReportData Title="H2_CH3_DUV" 			Cell="I51"/>
+			<ReportData Title="H2_CH4_U" 			Cell="G52"/>
+			<ReportData Title="H2_CH4_V" 			Cell="H52"/>
+			<ReportData Title="H2_CH4_DUV" 			Cell="I52"/>
+			<ReportData Title="H3_CH0_U" 			Cell="G53"/>
+			<ReportData Title="H3_CH0_V" 			Cell="H53"/>
+			<ReportData Title="H3_CH0_DUV" 			Cell="I53"/>
+			<ReportData Title="H3_CH1_U" 			Cell="G54"/>
+			<ReportData Title="H3_CH1_V" 			Cell="H54"/>
+			<ReportData Title="H3_CH1_DUV" 			Cell="I54"/>
+			<ReportData Title="H3_CH2_U" 			Cell="G55"/>
+			<ReportData Title="H3_CH2_V" 			Cell="H55"/>
+			<ReportData Title="H3_CH2_DUV" 			Cell="I55"/>
+			<ReportData Title="H3_CH3_U" 			Cell="G56"/>
+			<ReportData Title="H3_CH3_V" 			Cell="H56"/>
+			<ReportData Title="H3_CH3_DUV" 			Cell="I56"/>
+			<ReportData Title="H3_CH4_U" 			Cell="G57"/>
+			<ReportData Title="H3_CH4_V" 			Cell="H57"/>
+			<ReportData Title="H3_CH4_DUV" 			Cell="I57"/>
+		</ModelList>
+        <ModelList Name="eW_1FT">
+			<ReportData Title="H0_CH0_U" 			Cell="G35"/>
+			<ReportData Title="H0_CH0_V" 			Cell="H35"/>
+			<ReportData Title="H0_CH0_DUV" 			Cell="I35"/>
+			<ReportData Title="H0_CH0_CCT" 			Cell="L35"/>
+			<ReportData Title="H0_CH1_U" 			Cell="G36"/>
+			<ReportData Title="H0_CH1_V" 			Cell="H36"/>
+			<ReportData Title="H0_CH1_DUV" 			Cell="I36"/>
+            <ReportData Title="H0_CH0_CCT" 			Cell="L36"/>
+		</ModelList>
+		<ModelList Name="eW_4FT">
+			<ReportData Title="H0_CH0_U" 			Cell="G38"/>
+			<ReportData Title="H0_CH0_V" 			Cell="H38"/>
+			<ReportData Title="H0_CH0_DUV" 			Cell="I38"/>
+			<ReportData Title="H0_CH0_CCT" 			Cell="L38"/>
+			<ReportData Title="H0_CH1_U" 			Cell="G39"/>
+			<ReportData Title="H0_CH1_V" 			Cell="H39"/>
+			<ReportData Title="H0_CH1_DUV" 			Cell="I39"/>
+			<ReportData Title="H0_CH1_CCT" 			Cell="L39"/>
+			<ReportData Title="H1_CH0_U" 			Cell="G40"/>
+			<ReportData Title="H1_CH0_V" 			Cell="H40"/>
+			<ReportData Title="H1_CH0_DUV" 			Cell="I40"/>
+			<ReportData Title="H1_CH0_CCT" 			Cell="L40"/>
+			<ReportData Title="H1_CH1_U" 			Cell="G41"/>
+			<ReportData Title="H1_CH1_V" 			Cell="H41"/>
+			<ReportData Title="H1_CH1_DUV" 			Cell="I41"/>
+			<ReportData Title="H1_CH1_CCT" 			Cell="L41"/>
+			<ReportData Title="H2_CH0_U" 			Cell="G42"/>
+			<ReportData Title="H2_CH0_V" 			Cell="H42"/>
+			<ReportData Title="H2_CH0_DUV" 			Cell="I42"/>
+			<ReportData Title="H2_CH0_CCT" 			Cell="I42"/>
+			<ReportData Title="H2_CH1_U" 			Cell="G43"/>
+			<ReportData Title="H2_CH1_V" 			Cell="H43"/>
+			<ReportData Title="H2_CH1_DUV" 			Cell="I43"/>
+			<ReportData Title="H2_CH1_CCT" 			Cell="I43"/>
+			<ReportData Title="H3_CH0_U" 			Cell="G44"/>
+			<ReportData Title="H3_CH0_V" 			Cell="H44"/>
+			<ReportData Title="H3_CH0_DUV" 			Cell="I44"/>
+			<ReportData Title="H3_CH0_CCT" 			Cell="I44"/>
+			<ReportData Title="H3_CH1_U" 			Cell="G45"/>
+			<ReportData Title="H3_CH1_V" 			Cell="H45"/>
+			<ReportData Title="H3_CH1_DUV" 			Cell="I45"/>
+			<ReportData Title="H3_CH1_CCT" 			Cell="L45"/>
+		</ModelList>
+	</TestStation >
+  </ProductList>
+
+  <ProductList ProductName="Archipoint">
+	<TestStation StationName="Fixture Test Engine" >
+		<ModelList Name="ALL">
+			<ReportData Title="100V_CH0_I" 			Cell="K26"/>
+			<ReportData Title="100V_CH0_P" 			Cell="M26"/>
+			<ReportData Title="100V_CH0_PF" 		Cell="O26"/>
+			<ReportData Title="100V_CH1_I" 			Cell="K27"/>
+			<ReportData Title="100V_CH1_P" 			Cell="M27"/>
+			<ReportData Title="100V_CH1_PF" 		Cell="O27"/>
+			<ReportData Title="100V_CH2_I" 			Cell="K28"/>
+			<ReportData Title="100V_CH2_P" 			Cell="M28"/>
+			<ReportData Title="100V_CH2_PF" 		Cell="O28"/>
+			<ReportData Title="100V_CHall_I" 		Cell="K29"/>
+			<ReportData Title="100V_CHall_P" 		Cell="M29"/>
+			<ReportData Title="100V_CHall_PF" 		Cell="O29"/>
+			<ReportData Title="120V_CH0_I" 			Cell="K31"/>
+			<ReportData Title="120V_CH0_P" 			Cell="M31"/>
+			<ReportData Title="120V_CH0_PF" 		Cell="O31"/>
+			<ReportData Title="CH0_X" 				Cell="Q31"/>
+			<ReportData Title="CH0_Y" 				Cell="S31"/>
+			<ReportData Title="CH0_Z" 				Cell="U31"/>
+			<ReportData Title="120V_CH1_I" 			Cell="K32"/>
+			<ReportData Title="120V_CH1_P" 			Cell="M32"/>
+			<ReportData Title="120V_CH1_PF" 		Cell="O32"/>
+			<ReportData Title="CH1_X" 				Cell="Q32"/>
+			<ReportData Title="CH1_Y" 				Cell="S32"/>
+			<ReportData Title="CH1_Z" 				Cell="U32"/>
+			<ReportData Title="120V_CH2_I" 			Cell="K33"/>
+			<ReportData Title="120V_CH2_P" 			Cell="M33"/>
+			<ReportData Title="120V_CH2_PF" 		Cell="O33"/>
+			<ReportData Title="CH2_X" 				Cell="Q33"/>
+			<ReportData Title="CH2_Y" 				Cell="S33"/>
+			<ReportData Title="CH2_Z" 				Cell="U33"/>
+			<ReportData Title="240V_CH0_I" 			Cell="K34"/>
+			<ReportData Title="240V_CH0_P" 			Cell="M34"/>
+			<ReportData Title="240V_CH0_PF" 		Cell="O34"/>
+			<ReportData Title="240V_CH1_I" 			Cell="K35"/>
+			<ReportData Title="240V_CH1_P" 			Cell="M35"/>
+			<ReportData Title="240V_CH1_PF" 		Cell="O35"/>
+			<ReportData Title="240V_CH2_I" 			Cell="K36"/>
+			<ReportData Title="240V_CH2_P" 			Cell="M36"/>
+			<ReportData Title="240V_CH2_PF" 		Cell="O36"/>
+			<ReportData Title="240V_CHall_I" 		Cell="K37"/>
+			<ReportData Title="240V_CHall_P" 		Cell="M37"/>
+			<ReportData Title="240V_CHall_PF" 		Cell="O37"/>
+		</ModelList>
+	</TestStation >
+  </ProductList>
+
+  <ProductList ProductName="Reach and Reach Compact">
+	<TestStation StationName="FTE Power Tray" >
+		<ModelList Name="ALL">
+			<ReportData Title="ALL_0x00_I" 	Cell="K25"/>
+			<ReportData Title="ALL_0x00_P" 	Cell="M25"/>
+			<ReportData Title="CH0_0xFF_I" 	Cell="K26"/>
+			<ReportData Title="CH0_0xFF_P" 	Cell="M26"/>
+			<ReportData Title="CH1_0xFF_I" 	Cell="K27"/>
+			<ReportData Title="CH1_0xFF_P" 	Cell="M27"/>
+			<ReportData Title="CH2_0xFF_I" 	Cell="K28"/>
+			<ReportData Title="CH2_0xFF_P" 	Cell="M28"/>
+			<ReportData Title="ALL_0xFF_I" 	Cell="K29"/>
+			<ReportData Title="ALL_0xFF_P" 	Cell="M29"/>
+		</ModelList>
+	</TestStation >
+	<TestStation StationName="Power and Light Measurement with DEpro">
+		<ModelList Name="Reach RGB">
+			<ReportData Title="100V_0xFF_CH0_I" 		Cell="K25"/>
+			<ReportData Title="100V_0xFF_CH0_P" 		Cell="M25"/>
+			<ReportData Title="100V_0xFF_CH1_I" 		Cell="K26"/>
+			<ReportData Title="100V_0xFF_CH1_P" 		Cell="M26"/>
+			<ReportData Title="100V_0xFF_CH2_I" 		Cell="K27"/>
+			<ReportData Title="100V_0xFF_CH2_P" 		Cell="M27"/>
+			<ReportData Title="100V_0xFF_ALL_I" 		Cell="K28"/>
+			<ReportData Title="100V_0xFF_ALL_P"	 		Cell="M28"/>
+			<ReportData Title="120V_0xFFFF_P0_CH0_I" 	Cell="K29"/>
+			<ReportData Title="120V_0xFFFF_P0_CH0_P" 	Cell="M29"/>
+			<ReportData Title="120V_0xFFFF_P0_CH1_I" 	Cell="K30"/>
+			<ReportData Title="120V_0xFFFF_P0_CH1_P" 	Cell="M30"/>
+			<ReportData Title="120V_0xFFFF_P0_CH2_I" 	Cell="K31"/>
+			<ReportData Title="120V_0xFFFF_P0_CH2_P" 	Cell="M31"/>
+			<ReportData Title="120V_0xFFFF_P0_ALL_I" 	Cell="K32"/>
+			<ReportData Title="120V_0xFFFF_P0_ALL_P" 	Cell="M32"/>
+			<ReportData Title="120V_0xFFFF_P1_CH0_I" 	Cell="K33"/>
+			<ReportData Title="120V_0xFFFF_P1_CH0_P" 	Cell="M33"/>
+			<ReportData Title="120V_0xFFFF_P1_CH1_I" 	Cell="K34"/>
+			<ReportData Title="120V_0xFFFF_P1_CH1_P" 	Cell="M34"/>
+			<ReportData Title="120V_0xFFFF_P1_CH2_I" 	Cell="K35"/>
+			<ReportData Title="120V_0xFFFF_P1_CH2_P" 	Cell="M35"/>
+			<ReportData Title="120V_0xFFFF_P1_ALL_I" 	Cell="K36"/>
+			<ReportData Title="120V_0xFFFF_P1_ALL_P" 	Cell="M36"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH0_I" 	Cell="K37"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH0_P" 	Cell="M37"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH1_I" 	Cell="K38"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH1_P" 	Cell="M38"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH2_I" 	Cell="K39"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH2_P" 	Cell="M39"/>
+			<ReportData Title="120V_0x00FF_ALL_ALL_I" 	Cell="K40"/>
+			<ReportData Title="120V_0x00FF_ALL_ALL_P" 	Cell="M40"/>
+			<ReportData Title="120V_0xFFFF_ALL_ALL_I" 	Cell="K41"/>
+			<ReportData Title="120V_0xFFFF_ALL_ALL_P" 	Cell="M41"/>
+			<ReportData Title="240V_0xFF_CH0_I" 		Cell="K42"/>
+			<ReportData Title="240V_0xFF_CH0_P" 		Cell="M42"/>
+			<ReportData Title="240V_0xFF_CH1_I" 		Cell="K43"/>
+			<ReportData Title="240V_0xFF_CH1_P" 		Cell="M43"/>
+			<ReportData Title="240V_0xFF_CH2_I" 		Cell="K44"/>
+			<ReportData Title="240V_0xFF_CH2_P" 		Cell="M44"/>
+			<ReportData Title="240V_0xFF_ALL_I" 		Cell="K45"/>
+			<ReportData Title="240V_0xFF_ALL_P"	 		Cell="M45"/>
+		</ModelList>
+		
+		<ModelList Name="Reach Compact RGB">
+			<ReportData Title="100V_0xFF_CH0_I" 		Cell="K25"/>
+			<ReportData Title="100V_0xFF_CH0_P" 		Cell="M25"/>
+			<ReportData Title="100V_0xFF_CH1_I" 		Cell="K26"/>
+			<ReportData Title="100V_0xFF_CH1_P" 		Cell="M26"/>
+			<ReportData Title="100V_0xFF_CH2_I" 		Cell="K27"/>
+			<ReportData Title="100V_0xFF_CH2_P" 		Cell="M27"/>
+			<ReportData Title="100V_0xFF_ALL_I" 		Cell="K28"/>
+			<ReportData Title="100V_0xFF_ALL_P"	 		Cell="M28"/>
+			<ReportData Title="120V_POD_I" 				Cell="K29"/>
+			<ReportData Title="120V_POD_P" 				Cell="M29"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH0_I" 	Cell="K30"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH0_P" 	Cell="M30"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH1_I" 	Cell="K31"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH1_P" 	Cell="M31"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH2_I" 	Cell="K32"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH2_P" 	Cell="M32"/>
+			<ReportData Title="120V_0xFFFF_ALL_ALL_I" 	Cell="K33"/>
+			<ReportData Title="120V_0xFFFF_ALL_ALL_P" 	Cell="M33"/>
+			<ReportData Title="120V_0x00FF_ALL_ALL_I" 	Cell="K34"/>
+			<ReportData Title="120V_0x00FF_ALL_ALL_P" 	Cell="M34"/>
+			<ReportData Title="240V_0xFF_CH0_I" 		Cell="K35"/>
+			<ReportData Title="240V_0xFF_CH0_P" 		Cell="M35"/>
+			<ReportData Title="240V_0xFF_CH1_I" 		Cell="K36"/>
+			<ReportData Title="240V_0xFF_CH1_P" 		Cell="M36"/>
+			<ReportData Title="240V_0xFF_CH2_I" 		Cell="K37"/>
+			<ReportData Title="240V_0xFF_CH2_P" 		Cell="M37"/>
+			<ReportData Title="240V_0xFF_ALL_I" 		Cell="K38"/>
+			<ReportData Title="240V_0xFF_ALL_P"	 		Cell="M38"/>
+		</ModelList>
+	</TestStation>
+  </ProductList>
+
+  <ProductList ProductName="Dim 2 Warm">
+	<TestStation StationName="FTE and  Light measurement" >
+		<ModelList Name="ALL">
+			<ReportData Title="Full_V" 		Cell="G24"/>
+			<ReportData Title="Full_I" 		Cell="I24"/>
+			<ReportData Title="Full_Y" 		Cell="M24"/>
+			<ReportData Title="Full_DUV" 	Cell="Q24"/>
+			<ReportData Title="Dim_V" 		Cell="G25"/>
+			<ReportData Title="Dim_I" 		Cell="I25"/>
+			<ReportData Title="Dim_Y" 		Cell="M25"/>
+			<ReportData Title="Dim_DUV" 	Cell="Q25"/>
+		</ModelList>
+	</TestStation >
+  </ProductList>
+  
+  <ProductList ProductName="Color Blaze TR4">
+	<TestStation StationName="LED PCA Light Measurement" >
+		<ModelList Name="ALL">
+			<ReportData Title="Red_Y" 			Cell="I24"/>
+			<ReportData Title="Red_DUV" 		Cell="M24"/>
+			<ReportData Title="Red_V" 			Cell="O24"/>
+			<ReportData Title="Red_I" 			Cell="Q24"/>
+			<ReportData Title="Green_Y" 		Cell="I25"/>
+			<ReportData Title="Green_DUV" 		Cell="M25"/>
+			<ReportData Title="Green_V" 		Cell="O25"/>
+			<ReportData Title="Green_I" 		Cell="Q25"/>
+			<ReportData Title="Blue_Y" 			Cell="I26"/>
+			<ReportData Title="Blue_DUV" 		Cell="M26"/>
+			<ReportData Title="Blue_V" 			Cell="O26"/>
+			<ReportData Title="Blue_I" 			Cell="Q26"/>
+			<ReportData Title="Ch4_Y" 			Cell="I27"/>
+			<ReportData Title="Ch4_DUV" 		Cell="M27"/>
+			<ReportData Title="Ch4_V" 			Cell="O27"/>
+			<ReportData Title="Ch4_I" 			Cell="Q27"/>
+			<ReportData Title="ALL_Y" 			Cell="I28"/>
+			<ReportData Title="ALL_DUV" 		Cell="M28"/>
+			<ReportData Title="ALL_V" 			Cell="O28"/>
+			<ReportData Title="ALL_I" 			Cell="Q28"/>
+		</ModelList>
+	</TestStation >
+  </ProductList>
+  
+  <ProductList ProductName="eW Cove G3 48''">
+	<TestStation StationName="Power PCA Test Station" >
+		<ModelList Name="ALL">
+			<ReportData Title="Vac" 			Cell="B29"/>
+			<ReportData Title="PF" 				Cell="F29"/>
+			<ReportData Title="Pac" 			Cell="H29"/>
+			<ReportData Title="Iac" 			Cell="J29"/>
+			<ReportData Title="Vdc3" 			Cell="L29"/>
+			<ReportData Title="Idc3" 			Cell="P29"/>
+			<ReportData Title="Vdc4" 			Cell="N29"/>
+			<ReportData Title="Idc4" 			Cell="R29"/>
+		</ModelList>
+	</TestStation >
+	<TestStation StationName="Power and Light Measurement" >
+		<ModelList Name="ALL">
+			<ReportData Title="Vac" 			Cell="B30"/>
+			<ReportData Title="PF" 				Cell="F30"/>
+			<ReportData Title="Pac" 			Cell="H30"/>
+			<ReportData Title="Iac" 			Cell="J30"/>
+			<ReportData Title="H0Y" 			Cell="M30"/>
+			<ReportData Title="H1Y" 			Cell="Z30"/>
+			<ReportData Title="H2Y" 			Cell="AM30"/>
+		</ModelList>
+	</TestStation >
+  </ProductList>
+  
+  <ProductList ProductName="eW Cove G3 6'' 12''">
+	<TestStation StationName="Power and Light Measurement" >
+		<ModelList Name="ALL">
+			<ReportData Title="Vac" 			Cell="D30"/>
+			<ReportData Title="Pac" 			Cell="J30"/>
+			<ReportData Title="Iac" 			Cell="L30"/>
+			<ReportData Title="H0Y" 			Cell="O30"/>
+			<ReportData Title="CCT" 			Cell="X30"/>
+		</ModelList>
+	</TestStation >
+  </ProductList>
+  
+</ConfigList>

@@ -1,0 +1,43 @@
+OS,Windows XPComputer Name,et-pc-102-29.Test time,2012/11/05,16:42:07
+v5.1.0.1 <> (Nov  4 2012 21:16:25)
+C:/Program Files/Philips Color Kinetics/Fixture Test Engine/FTE-MRG3-Power Supply PCA.xml, $Rev: 628 $, WARNING: XML file has been modified
+Operator,12345678
+Part Number,PCA-000662-00
+Device,PRINTED CIRCUIT ASSEMBLY, ICOLOR MR G3, DRIVER
+
+
+******************,**********,**********
+Results
+******************,**********,**********
+Subassembly,12345678
+
+Test Start Time, 16:40:06
+Elapsed Time, 0:02:01
+Overall Result, Fail
+
+Pixel, P/F, Channel, P/F, 7.5V, P/F, 3.3V, P/F, Pass/Fail
+0,  , 0 - Red_A,  , 0, F, 0, F
+0,  , 1 - Green_A,  , ,  , 0, F
+0,  , 2 - Blue_A,  , ,  , 0, F
+0,  , 0 - Red_B,  , 0, F, 0, F
+0,  , 1 - Green_B,  , ,  , 0, F
+0,  , 2 - Blue_B,  , ,  , 0, F
+
+
+******************,**********,**********
+Rejection Criteria
+******************,**********,**********
+,Pixel,0
+,,Channel,0
+MRG3 PS Polarity A
+,Pixel,0
+,,Channel,0
+,,Channel,1
+,,Channel,2
+MRG3 PS Polarity B
+,Pixel,0
+,,Channel,0
+,,Channel,1
+,,Channel,2
+
+

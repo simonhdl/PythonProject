@@ -1,0 +1,9 @@
+2014/10/21_16:59:10 Software Startup. 
+2014/10/21_16:59:11 Operator ID: .
+2014/10/21_16:59:13 Smart Jack Pro Connected:02103782
+2014/10/21_16:59:15 Selected PP file:0027_BCP_1_7_0.PP
+2014/10/21_16:59:20 Set Fixture Parameter OK 5068:1552000a 0027_PHILIPS_BCP_SZ_RGB         .
+2014/10/21_16:59:27 Set Fixture Parameter OK 5068:15520a0a 0027_PHILIPS_BCP_SZ_RGB         .
+2014/10/21_16:59:36 Set Fixture Parameter OK 5068:1552abcd 0027_PHILIPS_BCP_SZ_RGB         .
+2014/10/21_16:59:46 Set Fixture Parameter OK 5068:1552aBCd 0027_PHILIPS_BCP_SZ_RGB         .
+2014/10/21_17:00:41 Software Terminated.

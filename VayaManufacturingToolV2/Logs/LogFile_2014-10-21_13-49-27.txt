@@ -1,0 +1,4 @@
+2014/10/21_13:49:27 Software Startup. 
+2014/10/21_13:49:28 Operator ID: .
+2014/10/21_13:49:30 Smart Jack Pro Connected:02103782
+2014/10/21_13:49:40 Software Terminated.
