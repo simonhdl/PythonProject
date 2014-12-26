@@ -1,0 +1,7 @@
+2014/06/26_13:44:18 Software Startup. 
+2014/06/26_13:44:28 Operator ID: Simon HE23452158153490157349059047fgsdfhg43905798#$!%@#$@#$^.
+2014/06/26_13:44:31 Smart Jack Pro Connected:02103782
+2014/06/26_13:44:35 Selected PP file:0043_BCP_1_8_2.PP
+2014/06/26_13:44:39 Set Fixture Parameter FAIL 5068:154AB001 0043_PHILIPS_BCP_SZ_RGB_PN      .
+2014/06/26_13:44:41 Discover Test.
+2014/06/26_13:44:48 Software Terminated.

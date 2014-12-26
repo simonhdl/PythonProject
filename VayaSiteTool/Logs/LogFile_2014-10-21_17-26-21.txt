@@ -1,0 +1,4 @@
+2014/10/21_17:26:21 Software Startup. 
+2014/10/21_17:26:26 Operator ID: DEBUG.
+2014/10/21_17:26:29 Smart Jack Pro Connected:02103782
+2014/10/21_17:26:34 Software Terminated.

@@ -1,0 +1,4 @@
+2014/12/19_09:38:43 Software Startup. 
+2014/12/19_09:38:45 Smart Jack Pro Connected:02103782
+2014/12/19_09:38:51 Selected PP file:0027_BCP_1_7_0.PP
+2014/12/19_09:38:55 Software Terminated.

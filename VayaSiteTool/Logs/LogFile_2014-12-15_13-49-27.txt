@@ -1,0 +1,3 @@
+2014/12/15_13:49:27 Software Startup. 
+2014/12/15_13:49:31 Operator ID: .
+2014/12/15_13:49:57 Software Terminated.

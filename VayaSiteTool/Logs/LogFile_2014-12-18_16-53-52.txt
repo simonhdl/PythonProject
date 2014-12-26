@@ -1,0 +1,5 @@
+2014/12/18_16:53:52 Software Startup. 
+2014/12/18_16:53:54 Smart Jack Pro Connected:02103782
+2014/12/18_16:54:00 Selected PP file:0027_BCP_1_7_0.PP
+2014/12/18_16:54:05 Set Fixture Parameter FAIL 11111111 0027_PHILIPS_BCP_SZ_RGB         .
+2014/12/18_16:54:16 Software Terminated.

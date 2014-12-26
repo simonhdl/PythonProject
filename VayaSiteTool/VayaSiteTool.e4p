@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project VayaSiteTool -->
+<!-- Saved: 2014-12-15, 13:28:02 -->
+<!-- Copyright (C) 2014 ,  -->
+<Project version="5.1">
+  <Language>en_US</Language>
+  <Hash>9d5fb10a732bad7a678dd42d2189166e4beb1650</Hash>
+  <ProgLanguage mixed="0">Python2</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Sources>
+    <Source>VayaMfgTool.py</Source>
+    <Source>ExtractFile.py</Source>
+    <Source>gamut_rc.py</Source>
+    <Source>IdInput.py</Source>
+    <Source>PPParse.py</Source>
+    <Source>SJPControl.py</Source>
+    <Source>Ui_IdInput.py</Source>
+    <Source>Ui_Info.py</Source>
+    <Source>Ui_VayaMfgMainWin.py</Source>
+    <Source>VayaMfgMainWin.py</Source>
+    <Source>__init__.py</Source>
+  </Sources>
+  <Forms>
+    <Form>IdInput.ui</Form>
+    <Form>Info.ui</Form>
+    <Form>VayaMfgMainWin.ui</Form>
+  </Forms>
+  <Translations/>
+  <Resources>
+    <Resource>gamut.qrc</Resource>
+    <Resource>PP.qrc</Resource>
+  </Resources>
+  <Interfaces/>
+  <Others/>
+  <MainScript>VayaMfgTool.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py2" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw2" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS"/>
+  </FiletypeAssociations>
+</Project>

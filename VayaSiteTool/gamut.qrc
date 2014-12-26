@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="HueView">
+    <file>GAMUT.PNG</file>
+  </qresource>
+  <qresource prefix="logo">
+    <file>CK.ico</file>
+  </qresource>
+  <qresource prefix="Nothing"/>
+</RCC>

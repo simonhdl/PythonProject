@@ -55,8 +55,8 @@ FormatColor = [ light_blue, light_green, light_orange, light_turquoise, light_ye
 
 #RootDir = 'C:\\Users\\310098157\\Dropbox\\Works@PCK\\Engineering\\Working Directory\\Projects\\'
 #VersionFilrDir = 'C:\\Users\\310098157\\Dropbox\\Works@PCK\\Engineering\\Working Directory\\Projects\\PCK_Test_Station_Version_Information.xls'
-RootDir = 'C:\\SimonHe Working\\z MyCodes\\cypher\\Software Test Scripts\\'
-VersionFilrDir = 'C:\\SimonHe Working\\z MyCodes\\cypher\\Software Test Scripts\\PCK_Test_Station_Version_Information.xls'
+RootDir = 'C:\\Users\\310098157\\Simon Working Folder\\Z Cypher\Software Test Scripts'
+VersionFilrDir = 'C:\\Users\\310098157\\Simon Working Folder\\Z Cypher\Software Test Scripts\\PCK_Test_Station_Version_Information.xls'
 
 #DirList = os.listdir(RootDir)
 
@@ -149,7 +149,7 @@ for row in reader:
 
 
 
-book.save('C:\\SimonHe Working\\z MyCodes\\cypher\\Software Test Scripts\\PCK_Test_Station_Version_Information_new_format.xls')
+book.save('C:\\Users\\310098157\\Simon Working Folder\\Z Cypher\Software Test Scripts\\PCK_Test_Station_Version_Information.xls')
 
 #rb = open_workbook(VersionFilrDir)
 #for s in rb.sheets():

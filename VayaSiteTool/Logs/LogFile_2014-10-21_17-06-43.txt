@@ -1,0 +1,6 @@
+2014/10/21_17:06:44 Software Startup. 
+2014/10/21_17:06:45 Operator ID: .
+2014/10/21_17:06:47 Smart Jack Pro Connected:02103782
+2014/10/21_17:07:13 Selected PP file:0027_BCP_1_7_0.PP
+2014/10/21_17:07:18 Discover Test.
+2014/10/21_17:07:24 Software Terminated.

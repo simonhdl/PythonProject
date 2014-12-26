@@ -1,0 +1,6 @@
+2014/10/21_13:44:17 Software Startup. 
+2014/10/21_13:44:19 Operator ID: .
+2014/10/21_13:44:22 Smart Jack Pro Connected:02103782
+2014/10/21_13:44:47 Selected PP file:0042_BCP_1_8_0.PP
+2014/10/21_13:44:52 Set Fixture Parameter FAIL 5068:15520E01 0042_PHILIPS_BCP_SZ_RGB_PM      .
+2014/10/21_13:47:52 Software Terminated.
