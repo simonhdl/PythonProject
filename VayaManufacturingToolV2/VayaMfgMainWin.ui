@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>820</width>
-    <height>715</height>
+    <width>1000</width>
+    <height>718</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -24,8 +24,8 @@
   </property>
   <property name="maximumSize">
    <size>
-    <width>820</width>
-    <height>715</height>
+    <width>1000</width>
+    <height>800</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -33,7 +33,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>../../../../../../../Pictures/CK.ico</normaloff>../../../../../../../Pictures/CK.ico</iconset>
+    <normaloff>../../../../../../Pictures/CK.ico</normaloff>../../../../../../Pictures/CK.ico</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
@@ -60,15 +60,15 @@
    <widget class="QLabel" name="label_Device_Status">
     <property name="geometry">
      <rect>
-      <x>570</x>
+      <x>740</x>
       <y>11</y>
-      <width>51</width>
+      <width>61</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>9</pointsize>
+      <pointsize>11</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -86,7 +86,7 @@
      <rect>
       <x>10</x>
       <y>60</y>
-      <width>801</width>
+      <width>981</width>
       <height>601</height>
      </rect>
     </property>
@@ -112,7 +112,7 @@
        <rect>
         <x>10</x>
         <y>410</y>
-        <width>771</width>
+        <width>961</width>
         <height>141</height>
        </rect>
       </property>
@@ -242,7 +242,7 @@
       <widget class="QLabel" name="label_14">
        <property name="geometry">
         <rect>
-         <x>410</x>
+         <x>580</x>
          <y>20</y>
          <width>351</width>
          <height>31</height>
@@ -263,7 +263,7 @@
       <widget class="QLabel" name="label_15">
        <property name="geometry">
         <rect>
-         <x>420</x>
+         <x>590</x>
          <y>66</y>
          <width>131</width>
          <height>21</height>
@@ -276,7 +276,7 @@
       <widget class="QLabel" name="label_16">
        <property name="geometry">
         <rect>
-         <x>420</x>
+         <x>590</x>
          <y>90</y>
          <width>111</width>
          <height>31</height>
@@ -289,7 +289,7 @@
       <widget class="QFrame" name="frame_4">
        <property name="geometry">
         <rect>
-         <x>410</x>
+         <x>580</x>
          <y>40</y>
          <width>351</width>
          <height>91</height>
@@ -347,7 +347,7 @@
       <widget class="QLCDNumber" name="lcdNumber">
        <property name="geometry">
         <rect>
-         <x>540</x>
+         <x>710</x>
          <y>60</y>
          <width>64</width>
          <height>31</height>
@@ -374,7 +374,7 @@
        <rect>
         <x>35</x>
         <y>390</y>
-        <width>746</width>
+        <width>941</width>
         <height>21</height>
        </rect>
       </property>
@@ -397,7 +397,7 @@
        <rect>
         <x>35</x>
         <y>140</y>
-        <width>746</width>
+        <width>941</width>
         <height>21</height>
        </rect>
       </property>
@@ -419,7 +419,7 @@
        <rect>
         <x>10</x>
         <y>30</y>
-        <width>771</width>
+        <width>961</width>
         <height>101</height>
        </rect>
       </property>
@@ -430,7 +430,7 @@
        <enum>QFrame::NoFrame</enum>
       </property>
       <property name="frameShadow">
-       <enum>QFrame::Raised</enum>
+       <enum>QFrame::Plain</enum>
       </property>
       <property name="lineWidth">
        <number>1</number>
@@ -443,35 +443,49 @@
         <rect>
          <x>10</x>
          <y>10</y>
-         <width>201</width>
+         <width>251</width>
          <height>31</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>11</pointsize>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(150, 150, 150);
+color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string>ESTA Manufacturer ID for PHILIPS</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
       <widget class="QLabel" name="label_9">
        <property name="geometry">
         <rect>
-         <x>330</x>
+         <x>350</x>
          <y>10</y>
-         <width>121</width>
+         <width>171</width>
          <height>31</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>11</pointsize>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(150, 150, 150);
+color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string>Manufacturer Site ID</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
       <widget class="QLabel" name="label_11">
@@ -479,17 +493,24 @@
         <rect>
          <x>10</x>
          <y>60</y>
-         <width>91</width>
+         <width>201</width>
          <height>31</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>11</pointsize>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(150, 150, 150);
+color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string>Select CM</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
       <widget class="QLineEdit" name="lineEdit_3">
@@ -498,7 +519,7 @@
        </property>
        <property name="geometry">
         <rect>
-         <x>210</x>
+         <x>260</x>
          <y>10</y>
          <width>61</width>
          <height>31</height>
@@ -509,8 +530,14 @@
          <pointsize>11</pointsize>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(200, 200, 200);</string>
+       </property>
        <property name="text">
         <string>5068</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -525,9 +552,9 @@
        </property>
        <property name="geometry">
         <rect>
-         <x>480</x>
+         <x>520</x>
          <y>10</y>
-         <width>51</width>
+         <width>61</width>
          <height>31</height>
         </rect>
        </property>
@@ -536,8 +563,14 @@
          <pointsize>11</pointsize>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(200, 200, 200);</string>
+       </property>
        <property name="text">
         <string>05</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -549,9 +582,9 @@
       <widget class="QLineEdit" name="lineEdit_UID">
        <property name="geometry">
         <rect>
-         <x>280</x>
+         <x>440</x>
          <y>60</y>
-         <width>131</width>
+         <width>141</width>
          <height>31</height>
         </rect>
        </property>
@@ -570,15 +603,15 @@
       <widget class="QPushButton" name="GenerateUID_2">
        <property name="geometry">
         <rect>
-         <x>420</x>
-         <y>60</y>
-         <width>111</width>
-         <height>31</height>
+         <x>600</x>
+         <y>10</y>
+         <width>121</width>
+         <height>81</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>12</pointsize>
         </font>
        </property>
        <property name="text">
@@ -588,29 +621,39 @@
       <widget class="QComboBox" name="comboBox_CMList">
        <property name="geometry">
         <rect>
-         <x>80</x>
+         <x>210</x>
          <y>60</y>
-         <width>91</width>
+         <width>111</width>
          <height>31</height>
         </rect>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
        </property>
       </widget>
       <widget class="QLabel" name="label_12">
        <property name="geometry">
         <rect>
-         <x>250</x>
+         <x>350</x>
          <y>60</y>
-         <width>31</width>
+         <width>91</width>
          <height>31</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>11</pointsize>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(150, 150, 150);
+color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string>UID</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
       <widget class="QTextBrowser" name="textBrowser_2">
@@ -619,7 +662,7 @@
        </property>
        <property name="geometry">
         <rect>
-         <x>540</x>
+         <x>730</x>
          <y>5</y>
          <width>221</width>
          <height>91</height>
@@ -640,9 +683,11 @@
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;NOTE:&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&amp;gt; The first UID of the day will be generated based on Factory ID and Date Code.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&amp;gt; The first UID of the day will be generated &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;    based on Factory ID and Date Code.&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&amp;gt; Check the Date and Supply Factory&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&amp;gt; Connect &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:600; color:#ff0000;&quot;&gt;One&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; unit when using Configuration Tool&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&amp;gt; Connect &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:600; color:#ff0000;&quot;&gt;One&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; unit when using &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;    Configuration Tool&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </widget>
@@ -651,7 +696,7 @@ p, li { white-space: pre-wrap; }
        <rect>
         <x>35</x>
         <y>10</y>
-        <width>746</width>
+        <width>941</width>
         <height>21</height>
        </rect>
       </property>
@@ -676,7 +721,7 @@ p, li { white-space: pre-wrap; }
        <rect>
         <x>10</x>
         <y>160</y>
-        <width>771</width>
+        <width>961</width>
         <height>221</height>
        </rect>
       </property>
@@ -695,64 +740,20 @@ p, li { white-space: pre-wrap; }
       <property name="midLineWidth">
        <number>1</number>
       </property>
-      <widget class="QLabel" name="label_17">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>10</y>
-         <width>91</width>
-         <height>31</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>10</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>Production Date</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEdit_Today">
-       <property name="enabled">
-        <bool>true</bool>
-       </property>
-       <property name="geometry">
-        <rect>
-         <x>105</x>
-         <y>10</y>
-         <width>111</width>
-         <height>31</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Lucida Sans Unicode</family>
-         <pointsize>11</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="readOnly">
-        <bool>true</bool>
-       </property>
-      </widget>
       <widget class="QPushButton" name="pushButton_SelectPP">
        <property name="geometry">
         <rect>
-         <x>330</x>
-         <y>50</y>
-         <width>121</width>
-         <height>31</height>
+         <x>540</x>
+         <y>10</y>
+         <width>101</width>
+         <height>71</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -762,15 +763,15 @@ p, li { white-space: pre-wrap; }
       <widget class="QPushButton" name="pushButton_SetPara">
        <property name="geometry">
         <rect>
-         <x>20</x>
+         <x>10</x>
          <y>170</y>
-         <width>211</width>
+         <width>311</width>
          <height>41</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>11</pointsize>
         </font>
        </property>
        <property name="text">
@@ -780,15 +781,15 @@ p, li { white-space: pre-wrap; }
       <widget class="QPushButton" name="pushButton_GetPara">
        <property name="geometry">
         <rect>
-         <x>240</x>
+         <x>330</x>
          <y>170</y>
-         <width>211</width>
+         <width>311</width>
          <height>41</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>11</pointsize>
         </font>
        </property>
        <property name="text">
@@ -798,11 +799,16 @@ p, li { white-space: pre-wrap; }
       <widget class="QComboBox" name="comboBox_ModelList">
        <property name="geometry">
         <rect>
-         <x>115</x>
+         <x>160</x>
          <y>50</y>
-         <width>201</width>
+         <width>371</width>
          <height>31</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
        </property>
       </widget>
       <widget class="QLabel" name="label_19">
@@ -810,63 +816,89 @@ p, li { white-space: pre-wrap; }
         <rect>
          <x>10</x>
          <y>50</y>
-         <width>101</width>
+         <width>151</width>
          <height>31</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>11</pointsize>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(150, 150, 150);
+color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string>Model Description</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
       <widget class="QLabel" name="label_20">
        <property name="geometry">
         <rect>
-         <x>300</x>
-         <y>130</y>
-         <width>91</width>
+         <x>400</x>
+         <y>90</y>
+         <width>191</width>
          <height>31</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>11</pointsize>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(150, 150, 150);
+color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string>DMX Footprint</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
       <widget class="QLabel" name="label_21">
        <property name="geometry">
         <rect>
-         <x>240</x>
-         <y>90</y>
-         <width>211</width>
+         <x>400</x>
+         <y>130</y>
+         <width>191</width>
          <height>31</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>11</pointsize>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(150, 150, 150);
+color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string>Sequence Number (1-511)</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
       <widget class="QSpinBox" name="spinBox">
        <property name="geometry">
         <rect>
-         <x>400</x>
-         <y>90</y>
+         <x>590</x>
+         <y>130</y>
          <width>51</width>
          <height>31</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
        </property>
        <property name="minimum">
         <number>1</number>
@@ -881,14 +913,20 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="geometry">
         <rect>
-         <x>400</x>
-         <y>130</y>
+         <x>590</x>
+         <y>90</y>
          <width>51</width>
          <height>31</height>
         </rect>
        </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(200, 200, 200);</string>
+       </property>
        <property name="text">
         <string/>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -901,18 +939,25 @@ p, li { white-space: pre-wrap; }
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>130</y>
-         <width>91</width>
+         <y>90</y>
+         <width>151</width>
          <height>31</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>11</pointsize>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(150, 150, 150);
+color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string>Fixture Model</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
       <widget class="QLineEdit" name="lineEdit_FixtureModel">
@@ -921,9 +966,9 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="geometry">
         <rect>
-         <x>90</x>
-         <y>130</y>
-         <width>141</width>
+         <x>160</x>
+         <y>90</y>
+         <width>221</width>
          <height>31</height>
         </rect>
        </property>
@@ -932,8 +977,14 @@ p, li { white-space: pre-wrap; }
          <pointsize>10</pointsize>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(200, 200, 200);</string>
+       </property>
        <property name="text">
         <string/>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
        </property>
        <property name="readOnly">
         <bool>true</bool>
@@ -942,7 +993,7 @@ p, li { white-space: pre-wrap; }
       <widget class="QLabel" name="Config_PP">
        <property name="geometry">
         <rect>
-         <x>460</x>
+         <x>650</x>
          <y>10</y>
          <width>300</width>
          <height>200</height>
@@ -965,38 +1016,59 @@ p, li { white-space: pre-wrap; }
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>90</y>
-         <width>21</width>
+         <y>130</y>
+         <width>151</width>
          <height>31</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>11</pointsize>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(150, 150, 150);
+color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string>UID</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
       <widget class="QLineEdit" name="lineEdit_ProgramUID">
        <property name="geometry">
         <rect>
-         <x>40</x>
-         <y>90</y>
-         <width>191</width>
+         <x>160</x>
+         <y>130</y>
+         <width>221</width>
          <height>31</height>
         </rect>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
        </property>
       </widget>
       <widget class="QLineEdit" name="lineEdit_PPname">
        <property name="geometry">
         <rect>
-         <x>290</x>
+         <x>160</x>
          <y>10</y>
-         <width>161</width>
+         <width>371</width>
          <height>31</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(200, 200, 200);</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
        </property>
        <property name="readOnly">
         <bool>true</bool>
@@ -1005,19 +1077,26 @@ p, li { white-space: pre-wrap; }
       <widget class="QLabel" name="label_27">
        <property name="geometry">
         <rect>
-         <x>230</x>
+         <x>10</x>
          <y>10</y>
-         <width>61</width>
+         <width>151</width>
          <height>31</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <pointsize>10</pointsize>
+         <pointsize>11</pointsize>
         </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(150, 150, 150);
+color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string>File Name</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
      </widget>
@@ -1069,6 +1148,15 @@ p, li { white-space: pre-wrap; }
        <string/>
       </property>
      </widget>
+     <zorder>frame_3</zorder>
+     <zorder>label_26</zorder>
+     <zorder>label_18</zorder>
+     <zorder>label_13</zorder>
+     <zorder>frame_2</zorder>
+     <zorder>label</zorder>
+     <zorder>label_3</zorder>
+     <zorder>label_4</zorder>
+     <zorder>frame</zorder>
     </widget>
     <widget class="QWidget" name="addressing">
      <attribute name="title">
@@ -2257,7 +2345,7 @@ image: url(:/logo/CK.ico);
    <widget class="QLabel" name="label_Device_Status_2">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>800</x>
       <y>10</y>
       <width>181</width>
       <height>31</height>
@@ -2286,7 +2374,7 @@ image: url(:/logo/CK.ico);
      <rect>
       <x>7</x>
       <y>40</y>
-      <width>811</width>
+      <width>981</width>
       <height>20</height>
      </rect>
     </property>
@@ -2303,7 +2391,7 @@ image: url(:/logo/CK.ico);
    <widget class="QLabel" name="label_34">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>680</x>
       <y>680</y>
       <width>301</width>
       <height>21</height>
@@ -2357,7 +2445,7 @@ image: url(:/logo/CK.ico);
    <widget class="QFrame" name="frame_7">
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>640</x>
       <y>680</y>
       <width>31</width>
       <height>21</height>
@@ -2423,7 +2511,7 @@ image: url(:/logo/CK.ico);
    <widget class="QLabel" name="label_version">
     <property name="geometry">
      <rect>
-      <x>390</x>
+      <x>550</x>
       <y>670</y>
       <width>81</width>
       <height>41</height>
@@ -2442,9 +2530,9 @@ image: url(:/logo/CK.ico);
     <property name="geometry">
      <rect>
       <x>280</x>
-      <y>15</y>
+      <y>10</y>
       <width>191</width>
-      <height>21</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -2456,7 +2544,53 @@ image: url(:/logo/CK.ico);
      <string notr="true">background-color: rgb(200, 200, 200);</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#000000;&quot;&gt;Operator: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#000000;&quot;&gt;[Operator]: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>680</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Production Date</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Today">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>680</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Lucida Sans Unicode</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>

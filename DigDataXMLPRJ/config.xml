@@ -606,6 +606,7 @@
 	<TestStation StationName="Power and Light Measurement" >
 		<ModelList Name="ALL">
 			<ReportData Title="Vac" 			Cell="D30"/>
+            <ReportData Title="Pf"  			Cell="H30"/>
 			<ReportData Title="Pac" 			Cell="J30"/>
 			<ReportData Title="Iac" 			Cell="L30"/>
 			<ReportData Title="H0Y" 			Cell="O30"/>
@@ -613,5 +614,107 @@
 		</ModelList>
 	</TestStation >
   </ProductList>
-  
+
+  <ProductList ProductName="Reach and Reach Compact For 4CH">
+	<TestStation StationName="Power and Light Measurement with DEpro">
+		<ModelList Name="Reach RGBX">
+			<ReportData Title="100V_0xFF_CH0_I" 		Cell="K25"/>
+			<ReportData Title="100V_0xFF_CH0_P" 		Cell="M25"/>
+            <ReportData Title="100V_0xFF_CH0_PF" 		Cell="O25"/>
+			<ReportData Title="100V_0xFF_CH1_I" 		Cell="K26"/>
+			<ReportData Title="100V_0xFF_CH1_P" 		Cell="M26"/>
+            <ReportData Title="100V_0xFF_CH1_PF" 		Cell="O26"/>
+			<ReportData Title="100V_0xFF_CH2_I" 		Cell="K27"/>
+			<ReportData Title="100V_0xFF_CH2_P" 		Cell="M27"/>
+            <ReportData Title="100V_0xFF_CH2_PF" 		Cell="O27"/>
+            <ReportData Title="100V_0xFF_CH3_I" 		Cell="K28"/>
+			<ReportData Title="100V_0xFF_CH3_P" 		Cell="M28"/>
+            <ReportData Title="100V_0xFF_CH3_PF" 		Cell="O28"/>
+			<ReportData Title="100V_0xFF_ALL_I" 		Cell="K29"/>
+			<ReportData Title="100V_0xFF_ALL_P"	 		Cell="M29"/>
+            <ReportData Title="100V_0xFF_ALL_PF"	 	Cell="O29"/>
+			<ReportData Title="120V_0xFFFF_P0_CH0_I" 	Cell="K30"/>
+			<ReportData Title="120V_0xFFFF_P0_CH0_P" 	Cell="M30"/>
+            <ReportData Title="120V_0xFFFF_P0_CH0_PF" 	Cell="O30"/>
+			<ReportData Title="120V_0xFFFF_P0_CH1_I" 	Cell="K31"/>
+			<ReportData Title="120V_0xFFFF_P0_CH1_P" 	Cell="M31"/>
+            <ReportData Title="120V_0xFFFF_P0_CH1_PF" 	Cell="O31"/>
+			<ReportData Title="120V_0xFFFF_P0_CH2_I" 	Cell="K32"/>
+			<ReportData Title="120V_0xFFFF_P0_CH2_P" 	Cell="M32"/>
+            <ReportData Title="120V_0xFFFF_P0_CH2_PF" 	Cell="O32"/>
+            <ReportData Title="120V_0xFFFF_P0_CH3_I" 	Cell="K33"/>
+			<ReportData Title="120V_0xFFFF_P0_CH3_P" 	Cell="M33"/>
+            <ReportData Title="120V_0xFFFF_P0_CH3_PF" 	Cell="O33"/>
+			<ReportData Title="120V_0xFFFF_P0_ALL_I" 	Cell="K34"/>
+			<ReportData Title="120V_0xFFFF_P0_ALL_P" 	Cell="M34"/>
+            <ReportData Title="120V_0xFFFF_P0_ALL_PF" 	Cell="O34"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH0_I" 	Cell="K37"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH0_P" 	Cell="M37"/>
+            <ReportData Title="120V_0xFFFF_ALL_CH0_PF" 	Cell="O37"/>
+			<ReportData Title="240V_0xFF_CH0_I" 		Cell="K41"/>
+			<ReportData Title="240V_0xFF_CH0_P" 		Cell="M41"/>
+            <ReportData Title="240V_0xFF_CH0_PF" 		Cell="O41"/>
+			<ReportData Title="240V_0xFF_CH1_I" 		Cell="K42"/>
+			<ReportData Title="240V_0xFF_CH1_P" 		Cell="M42"/>
+            <ReportData Title="240V_0xFF_CH1_PF" 		Cell="O42"/>
+			<ReportData Title="240V_0xFF_CH2_I" 		Cell="K43"/>
+			<ReportData Title="240V_0xFF_CH2_P" 		Cell="M43"/>
+            <ReportData Title="240V_0xFF_CH2_PF" 		Cell="O43"/>
+            <ReportData Title="240V_0xFF_CH3_I" 		Cell="K44"/>
+			<ReportData Title="240V_0xFF_CH3_P" 		Cell="M44"/>
+            <ReportData Title="240V_0xFF_CH3_PF" 		Cell="O44"/>
+			<ReportData Title="240V_0xFF_ALL_I" 		Cell="K45"/>
+			<ReportData Title="240V_0xFF_ALL_P"	 		Cell="M45"/>
+            <ReportData Title="240V_0xFF_ALL_PF"	 	Cell="O45"/>
+		</ModelList>
+		<ModelList Name="Reach Compact RGBX">
+			<ReportData Title="100V_0xFF_CH0_I" 		Cell="K25"/>
+			<ReportData Title="100V_0xFF_CH0_P" 		Cell="M25"/>
+            <ReportData Title="100V_0xFF_CH0_PF" 		Cell="O25"/>
+			<ReportData Title="100V_0xFF_CH1_I" 		Cell="K26"/>
+			<ReportData Title="100V_0xFF_CH1_P" 		Cell="M26"/>
+            <ReportData Title="100V_0xFF_CH1_PF" 		Cell="O26"/>
+			<ReportData Title="100V_0xFF_CH2_I" 		Cell="K27"/>
+			<ReportData Title="100V_0xFF_CH2_P" 		Cell="M27"/>
+            <ReportData Title="100V_0xFF_CH2_PF" 		Cell="O27"/>
+            <ReportData Title="100V_0xFF_CH3_I" 		Cell="K28"/>
+			<ReportData Title="100V_0xFF_CH3_P" 		Cell="M28"/>
+            <ReportData Title="100V_0xFF_CH3_PF" 		Cell="O28"/>
+            <ReportData Title="100V_0xFF_ALL_I" 		Cell="K29"/>
+			<ReportData Title="100V_0xFF_ALL_P" 		Cell="M29"/>
+            <ReportData Title="100V_0xFF_ALL_PF" 		Cell="O29"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH0_I" 	Cell="K31"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH0_P" 	Cell="M31"/>
+            <ReportData Title="120V_0xFFFF_ALL_CH0_PF" 	Cell="O31"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH1_I" 	Cell="K32"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH1_P" 	Cell="M32"/>
+            <ReportData Title="120V_0xFFFF_ALL_CH1_PF" 	Cell="O32"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH2_I" 	Cell="K33"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH2_P" 	Cell="M33"/>
+            <ReportData Title="120V_0xFFFF_ALL_CH2_PF" 	Cell="O33"/>
+            <ReportData Title="120V_0xFFFF_ALL_CH3_I" 	Cell="K34"/>
+			<ReportData Title="120V_0xFFFF_ALL_CH3_P" 	Cell="M34"/>
+            <ReportData Title="120V_0xFFFF_ALL_CH3_PF" 	Cell="O34"/>
+			<ReportData Title="120V_0xFFFF_ALL_ALL_I" 	Cell="K35"/>
+			<ReportData Title="120V_0xFFFF_ALL_ALL_P" 	Cell="M35"/>
+            <ReportData Title="120V_0xFFFF_ALL_ALL_PF" 	Cell="O35"/>
+			<ReportData Title="240V_0xFF_CH0_I" 		Cell="K37"/>
+			<ReportData Title="240V_0xFF_CH0_P" 		Cell="M37"/>
+            <ReportData Title="240V_0xFF_CH0_PF" 		Cell="O37"/>
+			<ReportData Title="240V_0xFF_CH1_I" 		Cell="K38"/>
+			<ReportData Title="240V_0xFF_CH1_P" 		Cell="M38"/>
+            <ReportData Title="240V_0xFF_CH1_PF" 		Cell="O38"/>
+			<ReportData Title="240V_0xFF_CH2_I" 		Cell="K39"/>
+			<ReportData Title="240V_0xFF_CH2_P" 		Cell="M39"/>
+            <ReportData Title="240V_0xFF_CH2_PF" 		Cell="O39"/>
+            <ReportData Title="240V_0xFF_CH3_I" 		Cell="K40"/>
+			<ReportData Title="240V_0xFF_CH3_P" 		Cell="M40"/>
+            <ReportData Title="240V_0xFF_CH3_PF" 		Cell="O40"/>
+			<ReportData Title="240V_0xFF_ALL_I" 		Cell="K41"/>
+			<ReportData Title="240V_0xFF_ALL_P"	 		Cell="M41"/>
+            <ReportData Title="240V_0xFF_ALL_PF"	 	Cell="O41"/>
+		</ModelList>
+	</TestStation>
+  </ProductList>
+
 </ConfigList>

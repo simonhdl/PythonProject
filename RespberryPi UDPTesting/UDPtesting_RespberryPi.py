@@ -9,7 +9,7 @@ MESSAGE = ""
 MESSAGE_Q = []
 MESSAGE_QC = []
 #############################################################################################################################
-UDP_IP = "10.255.255.255"	#Broadcast IP address
+UDP_IP = "10.255.255.255"	#Multicast IP address
 UDP_PORT = 6038#UDP Port for Kinet
 MAGIC_NUM = [ 0x04, 0x01, 0xDC, 0x4A ]#Magic Number
 KINET_VER = [0x01, 0x00 ]#Kinet Version
@@ -38,7 +38,7 @@ time.sleep(1)
 
 
 
-def CAPacketOutput ( RED, GREEN, BLUE ):
+def KinetPacketOutput ( RED, GREEN, BLUE ):
     global MESSAGE_Q
     global MESSAGE_QC
     global MESSAGE
@@ -60,7 +60,7 @@ def CAPacketOutput ( RED, GREEN, BLUE ):
         MESSAGE_QC = []
         MESSAGE = ""
     
-def CAPacketSync ():
+def KinetPacketSync ():
     global MESSAGE_Q
     global MESSAGE_QC
     global MESSAGE
@@ -84,38 +84,38 @@ def ColorWash ():
     for i in range(6):
         if i==0:
             for j in range(0, 256, STEP):
-                CAPacketOutput(0xFF, j, 0x00)
-                CAPacketSync()
+                KinetPacketOutput(0xFF, j, 0x00)
+                KinetPacketSync()
         GREEN = 0xFF
 
         if i==1:
             for j in range(255, -1, -(STEP)):
-                CAPacketOutput(j, 0xFF, 0x00)
-                CAPacketSync()
+                KinetPacketOutput(j, 0xFF, 0x00)
+                KinetPacketSync()
         RED = 0x00
                 
         if i==2:
             for j in range(0, 256, STEP):
-                CAPacketOutput(0x00, 0xFF, j)
-                CAPacketSync()
+                KinetPacketOutput(0x00, 0xFF, j)
+                KinetPacketSync()
         BLUE = 0xFF
                 
         if i==3:
             for j in range(255, -1, -(STEP)):
-                CAPacketOutput(0x00, j, 0xFF)
-                CAPacketSync()
+                KinetPacketOutput(0x00, j, 0xFF)
+                KinetPacketSync()
         GREEN = 0x00
 
         if i==4:
             for j in range(0, 256, STEP):
-                CAPacketOutput(j, 0x00, 0xFF)
-                CAPacketSync()
+                KinetPacketOutput(j, 0x00, 0xFF)
+                KinetPacketSync()
         RED = 0xFF
 
         if i==5:
             for j in range(255, -1, -(STEP)):
-                CAPacketOutput(0xFF, 0x00, j)
-                CAPacketSync()
+                KinetPacketOutput(0xFF, 0x00, j)
+                KinetPacketSync()
         BLUE = 0x00
 
 
@@ -222,30 +222,32 @@ def ChasingRainbow ():
             KINET_DMX_DATA[k] = KINET_DMX_DATA_TEMP[k]
         time.sleep(0.02)
 
-        CAPacketSync()
+        KinetPacketSync()
 
         
 
 
 
 while(True):
-
-    CAPacketOutput(0xFF, 0x00, 0x00)
-    CAPacketSync()
+    '''
+    KinetPacketOutput(0xFF, 0x00, 0x00)
+    KinetPacketSync()
     time.sleep(2)
-    CAPacketOutput(0x00, 0xFF, 0x00)
-    CAPacketSync()
+    KinetPacketOutput(0x00, 0xFF, 0x00)
+    KinetPacketSync()
     time.sleep(2)
-    CAPacketOutput(0x00, 0x00, 0xFF)
-    CAPacketSync()
+    KinetPacketOutput(0x00, 0x00, 0xFF)
+    KinetPacketSync()
     time.sleep(2)
-    CAPacketOutput(0xFF, 0xFF, 0xFF)
-    CAPacketSync()
-    time.sleep(2)
-
+    '''
+    KinetPacketOutput(0xFF, 0xFF, 0xFF)
+    KinetPacketSync()
+    time.sleep(6)
+    '''
     ColorWash()
     time.sleep(2)
-    ChasingRainbow()
-    time.sleep(2)
+    '''
+    #ChasingRainbow()
+    #time.sleep(2)
     
 

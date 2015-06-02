@@ -150,7 +150,7 @@ for row in reader:
 
 
 book.save('C:\\Users\\310098157\\Simon Working Folder\\Z Cypher\Software Test Scripts\\PCK_Test_Station_Version_Information.xls')
-
+book.save('X:\\Electrical Engineering Department\Manufacturing Test SW\\PCK_Test_Station_Version_Information.xls')
 #rb = open_workbook(VersionFilrDir)
 #for s in rb.sheets():
 #    print 'Sheet:', s.name

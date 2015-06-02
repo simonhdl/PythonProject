@@ -3,7 +3,7 @@ import string
 import time
 #UDP_IP = "10.4.16.197"
 
-UDP_IP = "10.1.2.100"
+UDP_IP = "10.255.255.255"
 
 #UDP_IP = "10.1.1.15"
 
@@ -52,7 +52,7 @@ KINET_DMX_DATA[0] = 0xFF
 KINET_DMX_DATA[2] = 0xFF
 KINET_DMX_DATA[4] = 0xFF
 
-   
+'''   
 MESSAGE_Q = MAGIC_NUM + KINET_VER + KINET_PACK_TYPE + KINET_SEQ + KINET_PO_UNI + KINET_PO + KINET_FLAG + KINET_DMX_LEN + KINET_DMX_SC + KINET_DMX_DATA
 for item in MESSAGE_Q:
     MESSAGE_QC.append(chr(item))
@@ -82,7 +82,7 @@ for i in range(10000):
 
 
 print "END"
-
+'''
     
 
 
